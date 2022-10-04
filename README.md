@@ -34,13 +34,16 @@ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/ma
 
 ## Node and npm
 1. Using nvm to install node and npm to manage multiple versions of node.
-2. Intalling nvm:
-```
+2. Intalling nvm:```curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash```
+3. Restart terminal
+4. Intall node,npm : ``` nvm install node ```
 
-```
+
 ## Editors
 ### VSCode (Using it for node/js/react programming)
 1. Install it from here: https://code.visualstudio.com/
-2. Configure VSCode
-   * Install Material theme by searching "Material Theme" in extensions. Use "Material theme palenight high contrast" as its easy on eyes.
-   * 
+2. Extensions
+   * Material Theme
+
+
+
