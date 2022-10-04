@@ -31,7 +31,16 @@ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/ma
    git config --global user.email “you@example.com” 
    git config --global user.name “Your Name”
 ```
+
+## Node and npm
+1. Using nvm to install node and npm to manage multiple versions of node.
+2. Intalling nvm:
+```
+
+```
 ## Editors
-1. VSCode
-2. Sublime
-3. Intellij
+### VSCode (Using it for node/js/react programming)
+1. Install it from here: https://code.visualstudio.com/
+2. Configure VSCode
+   * Install Material theme by searching "Material Theme" in extensions. Use "Material theme palenight high contrast" as its easy on eyes.
+   * 
