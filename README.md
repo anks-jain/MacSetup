@@ -6,7 +6,7 @@ This step on your mac is essential to other dev dependency installations
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ## Iterm
-1. Download and install the terminal from here: https://iterm2.com/
+1. Install the terminal from here: ```brew install --cask iterm2```
 2. Install "Oh-my-zsh": ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 3. Download Material Design Colours
 ```
@@ -19,7 +19,7 @@ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/ma
 7. Select the material-design-colors.itermcolors file
 8. Select the material-design-colors from Load Presets…
 9. Do tweaks according to your choice.
-10. I am using theme "easterwood"
+10. I am using powerlevel10k. Install it using: ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```
 
 ## Git
 1. Install git : ```brew install git```
@@ -31,6 +31,9 @@ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/ma
    git config --global user.email “you@example.com” 
    git config --global user.name “Your Name”
 ```
+
+## JAVA
+1. Install java: ```brew install openjdk@17```
 
 ## Node and npm
 1. Using nvm to install node and npm to manage multiple versions of node.
@@ -44,6 +47,8 @@ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/ma
 1. Install it from here: https://code.visualstudio.com/
 2. Extensions
    * Material Theme
+### Intellij
+1. Install: https://www.jetbrains.com/idea/download/?section=mac
 
 
 
