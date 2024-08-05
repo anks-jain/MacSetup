@@ -24,8 +24,17 @@ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/ma
 ## Git
 1. Install git : ```brew install git```
 2. Generate ssh-key: ```ssh-keygen -t ed25519 -C "your_email@example.com"```
-2. View key: ```~/.ssh/id_rsa.pub```
-3. Copy & paste to GitHub profile > settings > SSH & GPG Keys, ‘New SSH Key’. Add to profile
+3. Start the ssh-agent in the background: ```eval "$(ssh-agent -s)"```
+4. If file doesn't exist create it: ```touch ~/.ssh/config```
+5. Modify the contents of the file
+   ```
+   Host github.com
+   AddKeysToAgent yes
+   UseKeychain yes
+   IdentityFile ~/.ssh/id_ed25519    # Change this to path in your case
+   ```
+6. Add your SSH private key to the ssh-agent : ```ssh-add --apple-use-keychain ~/.ssh/id_ed25519```
+7. Copy & paste to GitHub profile > settings > SSH & GPG Keys, ‘New SSH Key’. Add to profile
 4. Configure git cli
 ```
    git config --global user.email “you@example.com” 
