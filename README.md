@@ -23,7 +23,7 @@ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/ma
 
 ## Git
 1. Install git : ```brew install git```
-2. Generate ssh-key: ```ssh-keygen```
+2. Generate ssh-key: ```ssh-keygen -t ed25519 -C "your_email@example.com"```
 2. View key: ```~/.ssh/id_rsa.pub```
 3. Copy & paste to GitHub profile > settings > SSH & GPG Keys, ‘New SSH Key’. Add to profile
 4. Configure git cli
